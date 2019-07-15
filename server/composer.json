@@ -1,0 +1,12 @@
+{
+    "name": "sinistro/ratchet-server",
+    "require": {
+        "cboden/ratchet": "^0.4.1"
+    },
+    "authors": [
+        {
+            "name": "André Silva",
+            "email": "dev.andregnx@gmail.com"
+        }
+    ]
+}

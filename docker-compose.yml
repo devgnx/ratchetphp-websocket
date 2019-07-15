@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  ratchet-php:
+    build: .
+    ports:
+      - 8080:8080
+
+  nginx:
+    image: 'nginx'
+    ports:
+      - 8081:80
+    volumes:
+      - ./client:/usr/share/nginx/html
