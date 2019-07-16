@@ -1,4 +1,4 @@
-var socket = new WebSocket('ws://echo.websocket.org');
+var socket = new WebSocket('ws://localhost:8080/echo');
 
 socket.onopen = function(event) {
   console.log('Conectado com: ' + event.currentTarget.URL);
