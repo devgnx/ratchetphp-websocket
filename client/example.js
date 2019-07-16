@@ -9,7 +9,7 @@ socket.onerror = function(error) {
 };
 
 socket.onclose = function(event) {
-  console.log('Disconectado do WebSocket.');
+  console.log('Desconectado do WebSocket.');
 };
 
 socket.onmessage = function(event) {
