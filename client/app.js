@@ -40,7 +40,7 @@ window.onload = function() {
   
   //Mostrando a mensagem de desconectado quando o websocket for fechado.
   socket.onclose = function(event) {
-    socketStatus.innerHTML = 'Disconectando o WebSocket.';
+    socketStatus.innerHTML = 'Desconectando o WebSocket.';
     socketStatus.className = 'closed';
   };
   
